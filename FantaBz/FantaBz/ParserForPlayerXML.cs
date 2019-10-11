@@ -29,15 +29,15 @@ namespace FantaBz
                 pl.Position = node.SelectSingleNode("pos").InnerText;
                 pl.Team = node.SelectSingleNode("team").InnerText;
                 PlayerList.addPlayer(pl);
-                Console.Out.WriteLine(pl.toString());
+               // Console.Out.WriteLine(pl.toString());
             }
 
         }
 
 
-        static void Main(string[] args) {
+        /*static void Main(string[] args) {
             ParserForPlayerXML p = new ParserForPlayerXML();
-        }
+        }*/
     }
 
 
