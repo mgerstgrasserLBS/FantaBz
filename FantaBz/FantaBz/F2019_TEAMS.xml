@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rose.xsl"?>
+<fantabzzz>
+	<team id="T01">
+		<info>
+			<name>FC Torpedo</name>
+			<president>Mark H.M.</president>
+			<credit>36</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="124">
+				<name>Handanovic Samir</name>
+				<pos>G</pos>
+				<team>INTER</team>
+				<fantamio_payed>37</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="134">
+				<name>Padelli Daniele</name>
+				<pos>G</pos>
+				<team>INTER</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="127">
+				<name>Pau Lopez</name>
+				<pos>G</pos>
+				<team>ROMA</team>
+				<fantamio_payed>17</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="200">
+				<name>Acerbi Francesco</name>
+				<pos>D</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>29</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="226">
+				<name>Calderoni Marco</name>
+				<pos>D</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="234">
+				<name>Chiriches Vlad</name>
+				<pos>D</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="250">
+				<name>De Vrij Stefan</name>
+				<pos>D</pos>
+				<team>INTER</team>
+				<fantamio_payed>24</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="264">
+				<name>Faraoni Davide</name>
+				<pos>D</pos>
+				<team>VERONA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="301">
+				<name>Lirola Pol</name>
+				<pos>D</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="329">
+				<name>Palomino Josè Luis</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="335">
+				<name>Pezzella German</name>
+				<pos>D</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="350">
+				<name>Romero Cristian</name>
+				<pos>D</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="357">
+				<name>Samir</name>
+				<pos>D</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="810">
+				<name>Di Francesco Federico</name>
+				<pos>M</pos>
+				<team>SPAL</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="665">
+				<name>Gomez Alejandro</name>
+				<pos>M</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="646">
+				<name>Hernani</name>
+				<pos>M</pos>
+				<team>PARMA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="568">
+				<name>Kurtic Jasmin</name>
+				<pos>M</pos>
+				<team>SPAL</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="570">
+				<name>Lazzari Manuel</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="670">
+				<name>Luis Alberto</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>21</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="671">
+				<name>Mancosu Marco</name>
+				<pos>M</pos>
+				<team>LECCE</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="703">
+				<name>Ribery Franck</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>11</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="682">
+				<name>Saponara Riccardo</name>
+				<pos>M</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="691">
+				<name>Suso</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>35</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="626">
+				<name>Tonali Sandro</name>
+				<pos>M</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="687">
+				<name>Verdi Simone</name>
+				<pos>M</pos>
+				<team>TORINO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="911">
+				<name>Caputo Francesco</name>
+				<pos>S</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>20</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="861">
+				<name>Dzeko Edin</name>
+				<pos>S</pos>
+				<team>ROMA</team>
+				<fantamio_payed>69</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="864">
+				<name>Farias Diego</name>
+				<pos>S</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="827">
+				<name>Orsolini Riccardo</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="933">
+				<name>Rigoni Emiliano</name>
+				<pos>S</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T02">
+		<info>
+			<name>BVB Prodigy Baileys</name>
+			<president>Tom E.</president>
+			<credit>30</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="129">
+				<name>Meret Alex</name>
+				<pos>G</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>22</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="133">
+				<name>Ospina David</name>
+				<pos>G</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="151">
+				<name>Sepe Luigi</name>
+				<pos>G</pos>
+				<team>PARMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="207">
+				<name>Asamoah Kwadwo</name>
+				<pos>D</pos>
+				<team>INTER</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="408">
+				<name>Caceres Martin</name>
+				<pos>D</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="224">
+				<name>Calabria Davide</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="233">
+				<name>Chiellini Giorgio</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="247">
+				<name>De Maio Sebastian</name>
+				<pos>D</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="259">
+				<name>Djidji Koffi</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="279">
+				<name>Gosens Robin</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>19</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="321">
+				<name>Milenkovic Nikola</name>
+				<pos>D</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="501">
+				<name>Ansaldi Cristian</name>
+				<pos>M</pos>
+				<team>TORINO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="510">
+				<name>Benassi Marco</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="545">
+				<name>Dzemaili Blerim</name>
+				<pos>M</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="596">
+				<name>Parolo Marco</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>13</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="604">
+				<name>Pulgar Erick</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="681">
+				<name>Ramsey Aaron</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="699">
+				<name>Schöne Lasse</name>
+				<pos>M</pos>
+				<team>GENOA</team>
+				<fantamio_payed>16</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="690">
+				<name>Under Cengiz</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="819">
+				<name>Ilicic Josip</name>
+				<pos>S</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>46</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="928">
+				<name>Llorente Fernando</name>
+				<pos>S</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="925">
+				<name>Lozano Hirving</name>
+				<pos>S</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="881">
+				<name>Mertens Dries</name>
+				<pos>S</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>27</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="882">
+				<name>Milik Arkadiusz</name>
+				<pos>S</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>36</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="676">
+				<name>Pandev Goran</name>
+				<pos>S</pos>
+				<team>GENOA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="887">
+				<name>Pavoletti Leonardo</name>
+				<pos>S</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="894">
+				<name>Quagliarella Fabio</name>
+				<pos>S</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>56</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T03">
+		<info>
+			<name>SG Club</name>
+			<president>Gioele M.</president>
+			<credit>38</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="121">
+				<name>Gollini Pierluigi</name>
+				<pos>G</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>18</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="131">
+				<name>Musso Juan</name>
+				<pos>G</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="155">
+				<name>Sportiello Marco</name>
+				<pos>G</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="205">
+				<name>Bruno Alves</name>
+				<pos>D</pos>
+				<team>PARMA</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="231">
+				<name>Ceppitelli Luca</name>
+				<pos>D</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="241">
+				<name>Criscito Domenico</name>
+				<pos>D</pos>
+				<team>GENOA</team>
+				<fantamio_payed>21</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="395">
+				<name>Danilo Luiz da Silva</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="248">
+				<name>De Sciglio Mattia</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="255">
+				<name>Di Lorenzo Giovanni</name>
+				<pos>D</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>20</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="310">
+				<name>Mancini Gianluca</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="314">
+				<name>Martella Bruno</name>
+				<pos>D</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="316">
+				<name>Masiello Andrea</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="365">
+				<name>Toloi Rafael</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="374">
+				<name>Vicari Francesco</name>
+				<pos>D</pos>
+				<team>SPAL</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="523">
+				<name>Can Emre</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="535">
+				<name>D'Alessandro Marco</name>
+				<pos>M</pos>
+				<team>SPAL</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="538">
+				<name>De Roon Marten</name>
+				<pos>M</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>22</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="663">
+				<name>Douglas Costa</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>22</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="546">
+				<name>Ekdal Albin</name>
+				<pos>M</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="549">
+				<name>Freuler Remo</name>
+				<pos>M</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>11</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="566">
+				<name>Kucka Juraj</name>
+				<pos>M</pos>
+				<team>PARMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="696">
+				<name>Lazovic Darko</name>
+				<pos>M</pos>
+				<team>VERONA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="577">
+				<name>Lulic Senad</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>14</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="580">
+				<name>Mandragora Rolando</name>
+				<pos>M</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="597">
+				<name>Pellegrini Lorenzo</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="858">
+				<name>Destro Mattia</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="870">
+				<name>Immobile Ciro</name>
+				<pos>S</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>95</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="871">
+				<name>Inglese Roberto</name>
+				<pos>S</pos>
+				<team>PARMA</team>
+				<fantamio_payed>17</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="822">
+				<name>Joao Pedro</name>
+				<pos>S</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="875">
+				<name>Lapadula Gianluca</name>
+				<pos>S</pos>
+				<team>LECCE</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="835">
+				<name>Sansone Nicola</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T04">
+		<info>
+			<name>Real Dugongo</name>
+			<president>Andrea M.</president>
+			<credit>30</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="164">
+				<name>Joronen Jesse</name>
+				<pos>G</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="153">
+				<name>Sirigu Salvatore</name>
+				<pos>G</pos>
+				<team>TORINO</team>
+				<fantamio_payed>32</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="173">
+				<name>Ujkani Samir</name>
+				<pos>G</pos>
+				<team>TORINO</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="218">
+				<name>Bonifazi Kevin</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="409">
+				<name>Darmian Matteo</name>
+				<pos>D</pos>
+				<team>PARMA</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="249">
+				<name>De Silvestri Lorenzo</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="260">
+				<name>Djimsiti Berat</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="266">
+				<name>Fazio Federico</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="272">
+				<name>Gagliolo Riccardo</name>
+				<pos>D</pos>
+				<team>PARMA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="346">
+				<name>Rodriguez Ricardo</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="366">
+				<name>Tomiyasu Takehiro</name>
+				<pos>D</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="509">
+				<name>Baselli Daniele</name>
+				<pos>M</pos>
+				<team>TORINO</team>
+				<fantamio_payed>20</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="532">
+				<name>Cristante Bryan</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="709">
+				<name>Ghezzal Rachid</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="562">
+				<name>Khedira Sami</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>15</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="586">
+				<name>Meitè Soualiho</name>
+				<pos>M</pos>
+				<team>TORINO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="588">
+				<name>Missiroli Simone</name>
+				<pos>M</pos>
+				<team>SPAL</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="592">
+				<name>Nainggolan Radja</name>
+				<pos>M</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="602">
+				<name>Poli Andrea</name>
+				<pos>M</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="605">
+				<name>Rabiot Adrien</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>25</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="606">
+				<name>Radovanovic Ivan</name>
+				<pos>M</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="683">
+				<name>Soriano Roberto</name>
+				<pos>M</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>11</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="638">
+				<name>Zielinski Piotr</name>
+				<pos>M</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>36</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="804">
+				<name>Boga Jeremie</name>
+				<pos>S</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="808">
+				<name>Correa Joaquin</name>
+				<pos>S</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="857">
+				<name>Defrel Gregoire</name>
+				<pos>S</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="860">
+				<name>Donnarumma Alfredo </name>
+				<pos>S</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>19</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="930">
+				<name>Okaka Stefano</name>
+				<pos>S</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="897">
+				<name>Ronaldo Cristiano</name>
+				<pos>S</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>110</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="901">
+				<name>Simeone Giovanni</name>
+				<pos>S</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="837">
+				<name>Sottil Riccardo</name>
+				<pos>S</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T05">
+		<info>
+			<name>FC Stardust</name>
+			<president>Patrick S.</president>
+			<credit>35</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>12,5</gain>
+		</info>
+		<active>
+			<footballer id="111">
+				<name>Cragno Alessio</name>
+				<pos>G</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="115">
+				<name>Donnarumma Gianluigi</name>
+				<pos>G</pos>
+				<team>MILAN</team>
+				<fantamio_payed>36</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="132">
+				<name>Olsen Robin</name>
+				<pos>G</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="267">
+				<name>Felipe</name>
+				<pos>D</pos>
+				<team>SPAL</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="271">
+				<name>Florenzi Alessandro</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>26</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="276">
+				<name>Ghoulam Faouzi</name>
+				<pos>D</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="412">
+				<name>Kjaer Simon</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="295">
+				<name>Kolarov Aleksandar</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>15</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="311">
+				<name>Manolas Konstantinos</name>
+				<pos>D</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="349">
+				<name>Romagnoli Alessio</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="650">
+				<name>Bennacer Ismael</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>17</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="521">
+				<name>Calhanoglu Hakan</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="561">
+				<name>Kessiè Franck</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="582">
+				<name>Matuidi Blaise</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="679">
+				<name>Perotti Diego</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="608">
+				<name>Rincon Tomas</name>
+				<pos>M</pos>
+				<team>TORINO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="611">
+				<name>Ruiz Fabian</name>
+				<pos>M</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="631">
+				<name>Vecino Matias</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="689">
+				<name>Zaniolo Nicolò</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>34</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="922">
+				<name>Balotelli Mario</name>
+				<pos>S</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="850">
+				<name>Belotti Andrea</name>
+				<pos>S</pos>
+				<team>TORINO</team>
+				<fantamio_payed>72</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="818">
+				<name>Iago Falque</name>
+				<pos>S</pos>
+				<team>TORINO</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="879">
+				<name>Martinez Lautaro</name>
+				<pos>S</pos>
+				<team>INTER</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="885">
+				<name>Palacio Rodrigo</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="931">
+				<name>Pedro Neto</name>
+				<pos>S</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="909">
+				<name>Zaza Simone</name>
+				<pos>S</pos>
+				<team>TORINO</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T06">
+		<info>
+			<name>FC Lumia</name>
+			<president>Manfred G.</president>
+			<credit>30</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="116">
+				<name>Dragowski Bartlomiej</name>
+				<pos>G</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>13</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="154">
+				<name>Skorupski Lukasz</name>
+				<pos>G</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="158">
+				<name>Terracciano Pietro</name>
+				<pos>G</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="251">
+				<name>Demiral Merih</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="257">
+				<name>Dijks Mitchell</name>
+				<pos>D</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>19</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="284">
+				<name>Hernández Theo</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="323">
+				<name>Murru Nicola</name>
+				<pos>D</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="403">
+				<name>Müldür Mert</name>
+				<pos>D</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="337">
+				<name>Radu Stefan</name>
+				<pos>D</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="660">
+				<name>Callejon Josè Maria</name>
+				<pos>M</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>42</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="524">
+				<name>Candreva Antonio</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="527">
+				<name>Castro Lucas</name>
+				<pos>M</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="567">
+				<name>Kulusevski Dejan</name>
+				<pos>M</pos>
+				<team>PARMA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="553">
+				<name>Liam Henderson</name>
+				<pos>M</pos>
+				<team>VERONA</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="710">
+				<name>Mkhitaryan Henrikh</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>32</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="705">
+				<name>Sema Ken</name>
+				<pos>M</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="633">
+				<name>Veretout Jordan</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="618">
+				<name>Yevhen Shakhov</name>
+				<pos>M</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="916">
+				<name>Babacar Khouma</name>
+				<pos>S</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="801">
+				<name>Berardi Domenico</name>
+				<pos>S</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>24</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="868">
+				<name>Higuain Gonzalo</name>
+				<pos>S</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>52</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="919">
+				<name>Lukaku Romelu</name>
+				<pos>S</pos>
+				<team>INTER</team>
+				<fantamio_payed>79</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="878">
+				<name>Mandzukic Mario</name>
+				<pos>S</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>11</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="845">
+				<name>Skov Olsen Andreas</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="934">
+				<name>Stepinski Mariusz</name>
+				<pos>S</pos>
+				<team>VERONA</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T07">
+		<info>
+			<name>Pollo Zabov</name>
+			<president>Rupert B.</president>
+			<credit>30</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="125">
+				<name>Jandrei</name>
+				<pos>G</pos>
+				<team>GENOA</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="141">
+				<name>Radu Ionut Andrei</name>
+				<pos>G</pos>
+				<team>GENOA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="211">
+				<name>Barreca Antonio</name>
+				<pos>D</pos>
+				<team>GENOA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="237">
+				<name>Colley Omar</name>
+				<pos>D</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="243">
+				<name>D'Ambrosio Danilo</name>
+				<pos>D</pos>
+				<team>INTER</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="387">
+				<name>De Ligt Matthijs</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>33</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="287">
+				<name>Iacoponi Simone</name>
+				<pos>D</pos>
+				<team>PARMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="296">
+				<name>Koulibaly Kalidou</name>
+				<pos>D</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>32</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="360">
+				<name>Skriniar Milan</name>
+				<pos>D</pos>
+				<team>INTER</team>
+				<fantamio_payed>26</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="406">
+				<name>Tomovic Nenad</name>
+				<pos>D</pos>
+				<team>SPAL</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="379">
+				<name>Zapata Cristian</name>
+				<pos>D</pos>
+				<team>GENOA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="503">
+				<name>Badu Emmanuel</name>
+				<pos>M</pos>
+				<team>VERONA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="506">
+				<name>Barella Nicolò</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>16</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="656">
+				<name>Bernardeschi Federico</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="641">
+				<name>Castrovilli Gaetano</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="548">
+				<name>Fofana Seko</name>
+				<pos>M</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>17</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="652">
+				<name>Jony</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="569">
+				<name>Lazaro Valentino</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="573">
+				<name>Linetty Karol</name>
+				<pos>M</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="587">
+				<name>Milinkovic-Savic Sergej</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>44</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="617">
+				<name>Sensi Stefano</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>15</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="632">
+				<name>Veloso Miguel</name>
+				<pos>M</pos>
+				<team>VERONA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="812">
+				<name>Dybala Paulo</name>
+				<pos>S</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>12</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="817">
+				<name>Gervinho</name>
+				<pos>S</pos>
+				<team>PARMA</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="884">
+				<name>Muriel Luis</name>
+				<pos>S</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>18</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="890">
+				<name>Petagna Andrea</name>
+				<pos>S</pos>
+				<team>SPAL</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="932">
+				<name>Rebic Ante</name>
+				<pos>S</pos>
+				<team>MILAN</team>
+				<fantamio_payed>21</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="926">
+				<name>Sanchez Alexis</name>
+				<pos>S</pos>
+				<team>INTER</team>
+				<fantamio_payed>7</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="907">
+				<name>Vlahovic Dusan</name>
+				<pos>S</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T08">
+		<info>
+			<name>Reggina B 2020</name>
+			<president>Rosario V.</president>
+			<credit>30</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="109">
+				<name>Buffon Gianluigi</name>
+				<pos>G</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="110">
+				<name>Consigli Andrea</name>
+				<pos>G</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="157">
+				<name>Szczesny Wojciech</name>
+				<pos>G</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>34</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="219">
+				<name>Bonucci Leonardo</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>28</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="225">
+				<name>Caldara Mattia</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="229">
+				<name>Castagne Timothy</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="277">
+				<name>Godin Diego</name>
+				<pos>D</pos>
+				<team>INTER</team>
+				<fantamio_payed>27</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="290">
+				<name>Izzo Armando</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>30</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="302">
+				<name>Lucioni Fabio</name>
+				<pos>D</pos>
+				<team>LECCE</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="324">
+				<name>Musacchio Mateo</name>
+				<pos>D</pos>
+				<team>MILAN</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="325">
+				<name>N'Koulou Nicolas</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>2</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="404">
+				<name>Zappacosta Davide</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="502">
+				<name>Badelj Milan</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="507">
+				<name>Barillà Antonino</name>
+				<pos>M</pos>
+				<team>PARMA</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="511">
+				<name>Bentancur Rodrigo</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="516">
+				<name>Bonaventura Giacomo</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="668">
+				<name>Chiesa Federico</name>
+				<pos>M</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>51</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="661">
+				<name>De Paul Rodrigo</name>
+				<pos>M</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>35</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="571">
+				<name>Lucas Leiva</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="677">
+				<name>Pasalic Mario</name>
+				<pos>M</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>10</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="610">
+				<name>Romulo</name>
+				<pos>M</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="802">
+				<name>Boateng Kevin-Prince</name>
+				<pos>S</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="807">
+				<name>Caprari Gianluca</name>
+				<pos>S</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="859">
+				<name>Di Carmine Samuel</name>
+				<pos>S</pos>
+				<team>VERONA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="820">
+				<name>Insigne Lorenzo</name>
+				<pos>S</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>80</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="895">
+				<name>Ragatzu Daniele</name>
+				<pos>S</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="844">
+				<name>Tutino Genaro</name>
+				<pos>S</pos>
+				<team>VERONA</team>
+				<fantamio_payed>3</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T09">
+		<info>
+			<name>FC Gogo Rabbits</name>
+			<president>Christian G.</president>
+			<credit>42</credit>
+			<enrollmentfee>Y</enrollmentfee>
+			<gain>7,5</gain>
+		</info>
+		<active>
+			<footballer id="166">
+				<name>Radunović Boris</name>
+				<pos>G</pos>
+				<team>VERONA</team>
+				<fantamio_payed>0</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="152">
+				<name>Silvestri Marco</name>
+				<pos>G</pos>
+				<team>VERONA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="156">
+				<name>Strakosha Thomas</name>
+				<pos>G</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>8</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="202">
+				<name>Aina Ola</name>
+				<pos>D</pos>
+				<team>TORINO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="203">
+				<name>Alex Sandro</name>
+				<pos>D</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="244">
+				<name>Dalbert Henrique</name>
+				<pos>D</pos>
+				<team>FIORENTINA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="252">
+				<name>Denswil Stefano</name>
+				<pos>D</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="268">
+				<name>Ferrari Gianmarco</name>
+				<pos>D</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>14</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="283">
+				<name>Hateboer Hans</name>
+				<pos>D</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="385">
+				<name>Murillo Jeison</name>
+				<pos>D</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="500">
+				<name>Allan Marques Loureiro</name>
+				<pos>M</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="515">
+				<name>Bisoli Dimitri</name>
+				<pos>M</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="520">
+				<name>Brozovic Marcelo</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>37</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="654">
+				<name>Elmas Eljif</name>
+				<pos>M</pos>
+				<team>NAPOLI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="675">
+				<name>Kluivert Justin</name>
+				<pos>M</pos>
+				<team>ROMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="589">
+				<name>Murgia Alessandro</name>
+				<pos>M</pos>
+				<team>SPAL</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="697">
+				<name>Nández Nahitan</name>
+				<pos>M</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="601">
+				<name>Pjanic Miralem</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>46</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="814">
+				<name>Falco Filippo</name>
+				<pos>S</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="823">
+				<name>Karamoh Yann</name>
+				<pos>S</pos>
+				<team>PARMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="876">
+				<name>Lasagna Kevin</name>
+				<pos>S</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="891">
+				<name>Piatek Krzysztof</name>
+				<pos>S</pos>
+				<team>MILAN</team>
+				<fantamio_payed>49</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="893">
+				<name>Pinamonti Andrea</name>
+				<pos>S</pos>
+				<team>GENOA</team>
+				<fantamio_payed>23</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="908">
+				<name>Zapata Duvan</name>
+				<pos>S</pos>
+				<team>ATALANTA</team>
+				<fantamio_payed>72</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+	<team id="T10">
+		<info>
+			<name>AS Plein Sport</name>
+			<president>Andreas B.</president>
+			<credit>8</credit>
+			<enrollmentfee>N</enrollmentfee>
+			<gain>0</gain>
+		</info>
+		<active>
+			<footballer id="104">
+				<name>Audero Emil</name>
+				<pos>G</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="106">
+				<name>Berisha Etrit</name>
+				<pos>G</pos>
+				<team>SPAL</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="172">
+				<name>Seculin Andrea</name>
+				<pos>G</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="345">
+				<name>Becão Rodrigo</name>
+				<pos>D</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="236">
+				<name>Cistana Andrea</name>
+				<pos>D</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="275">
+				<name>Ghiglione Paolo</name>
+				<pos>D</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="303">
+				<name>Luiz Felipe Ramos Marchi</name>
+				<pos>D</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>11</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="332">
+				<name>Pellegrini Luca</name>
+				<pos>D</pos>
+				<team>CAGLIARI</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="333">
+				<name>Peluso Federico</name>
+				<pos>D</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="351">
+				<name>Rossettini Luca</name>
+				<pos>D</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="352">
+				<name>Rrahmani Amir</name>
+				<pos>D</pos>
+				<team>VERONA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="410">
+				<name>Smalling Chris</name>
+				<pos>D</pos>
+				<team>ROMA</team>
+				<fantamio_payed>4</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="534">
+				<name>Cuadrado Juan Guillermo</name>
+				<pos>M</pos>
+				<team>JUVENTUS</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="550">
+				<name>Gagliardini Roberto</name>
+				<pos>M</pos>
+				<team>INTER</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="558">
+				<name>Jajalo Mato</name>
+				<pos>M</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="572">
+				<name>Lerager Lukas</name>
+				<pos>M</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="574">
+				<name>Locatelli Manuel</name>
+				<pos>M</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="579">
+				<name>Majer Zan</name>
+				<pos>M</pos>
+				<team>LECCE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="315">
+				<name>Marusic Adam</name>
+				<pos>M</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="706">
+				<name>Medel Gary</name>
+				<pos>M</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="692">
+				<name>Obiang Pedro</name>
+				<pos>M</pos>
+				<team>SASSUOLO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="595">
+				<name>Paquetá Lucas</name>
+				<pos>M</pos>
+				<team>MILAN</team>
+				<fantamio_payed>5</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="621">
+				<name>Sturaro Stefano</name>
+				<pos>M</pos>
+				<team>GENOA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="643">
+				<name>Verre Valerio</name>
+				<pos>M</pos>
+				<team>VERONA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="848">
+				<name>Ayé Florian</name>
+				<pos>S</pos>
+				<team>BRESCIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="851">
+				<name>Caicedo Felipe</name>
+				<pos>S</pos>
+				<team>LAZIO</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="816">
+				<name>Gabbiadini Manolo</name>
+				<pos>S</pos>
+				<team>SAMPDORIA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="929">
+				<name>Kalinic Nicola</name>
+				<pos>S</pos>
+				<team>ROMA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="873">
+				<name>Kouamè Christian</name>
+				<pos>S</pos>
+				<team>GENOA</team>
+				<fantamio_payed>6</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="832">
+				<name>Politano Matteo</name>
+				<pos>S</pos>
+				<team>INTER</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="833">
+				<name>Pussetto Ignacio</name>
+				<pos>S</pos>
+				<team>UDINESE</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+			<footballer id="899">
+				<name>Santander Federico</name>
+				<pos>S</pos>
+				<team>BOLOGNA</team>
+				<fantamio_payed>1</fantamio_payed>
+				<fantamio_obtained>0</fantamio_obtained>
+			</footballer>
+		</active>
+	</team>
+</fantabzzz>
