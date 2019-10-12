@@ -9,10 +9,10 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace FantaBz
 {
-    class VotiExcelReader
+    class VotesExcelReader
     {
 
-        public VotiExcelReader() {
+        public VotesExcelReader() {
             parseExcelFile();
         }
 

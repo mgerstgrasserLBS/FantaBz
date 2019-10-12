@@ -58,14 +58,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LineUpEvaluator.cs" />
+    <Compile Include="LineUp.cs" />
+    <Compile Include="LineUpParser.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="ParserForPlayerXML.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="PlayerEvaluationEntry.cs" />
     <Compile Include="PlayerList.cs" />
     <Compile Include="PlayerRating.cs" />
     <Compile Include="PlayerRatingsList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VotiExcelReader.cs" />
+    <Compile Include="VotesExcelReader.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
