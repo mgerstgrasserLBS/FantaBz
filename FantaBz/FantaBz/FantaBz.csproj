@@ -62,6 +62,7 @@
     <Compile Include="LineUp.cs" />
     <Compile Include="LineUpParser.cs" />
     <Compile Include="Match.cs" />
+    <Compile Include="MatchEvaluator.cs" />
     <Compile Include="ParserForPlayerXML.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerEvaluationEntry.cs" />

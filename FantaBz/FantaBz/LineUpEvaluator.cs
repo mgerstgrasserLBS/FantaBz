@@ -8,26 +8,30 @@ namespace FantaBz
 {
     class LineUpEvaluator
     {
+        private LineUp initialLinup;
+
+        internal LineUp InitialLinup { get => initialLinup; set => initialLinup = value; }
+
         public List<PlayerEvaluationEntry> evaluateLinuep(String tid, int mday, string comp) {
 
             List<PlayerEvaluationEntry> evaluatedLinup = new List<PlayerEvaluationEntry>();
             string lineUpFile = "F2019_" + mday + "_" + comp + "_"+tid + ".xml";
 
-            LineUp lineup = LineUpParser.parseLineUPXML(lineUpFile);
-            PlayerEvaluationEntry[] starting11 = new PlayerEvaluationEntry[lineup.Starting11.Length];
-            for (int i = 0; i < lineup.Starting11.Length; i++) {
-                string pid = lineup.Starting11[i];
+            InitialLinup = LineUpParser.parseLineUPXML(lineUpFile);
+            PlayerEvaluationEntry[] starting11 = new PlayerEvaluationEntry[InitialLinup.Starting11.Length];
+            for (int i = 0; i < InitialLinup.Starting11.Length; i++) {
+                string pid = InitialLinup.Starting11[i];
                 starting11[i] = evaluatePlayer(pid);
             }
 
-            PlayerEvaluationEntry[] substitutes = new PlayerEvaluationEntry[lineup.Substitues.Length];
-            for (int i=0; i<lineup.Substitues.Length;i++) {
-                string pid = lineup.Substitues[i];
+            PlayerEvaluationEntry[] substitutes = new PlayerEvaluationEntry[InitialLinup.Substitues.Length];
+            for (int i=0; i< InitialLinup.Substitues.Length;i++) {
+                string pid = InitialLinup.Substitues[i];
                 substitutes[i] = evaluatePlayer(pid);
             }
 
             List<PlayerEvaluationEntry> excluded = new List<PlayerEvaluationEntry>();
-            foreach (string pid in lineup.Excluded) {
+            foreach (string pid in InitialLinup.Excluded) {
                 excluded.Add(evaluatePlayer(pid));
             }
 
