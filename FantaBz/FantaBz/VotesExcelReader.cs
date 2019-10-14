@@ -20,7 +20,7 @@ namespace FantaBz
         {
 
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open("C:\\voti.xlsx");
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open("C:\\fantabz\\voti.xlsx");
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
@@ -35,13 +35,30 @@ namespace FantaBz
                 if (!id.Equals("ALL."))
                 {
                     pr.Id = id;
-                    pr.VotoGazzetta = xlRange.Cells[i, 7].Value2;
+
+                    string test = xlRange.Cells[i, 7].Value2 + "";
+                    if (test.Equals("s,v,"))
+                    {
+                        pr.VotoGazzetta = 0;
+                    }
+                    else
+                    {
+                        pr.VotoGazzetta = Math.Round((double)xlRange.Cells[i, 7].Value2,1);
+                    }
                     pr.GolFattiGazzetta = xlRange.Cells[i, 8].Value2;
                     pr.GolSubitiGazzetta = xlRange.Cells[i, 9].Value2;
                     pr.AutoRetiGazzetta = xlRange.Cells[i, 10].Value2;
                     pr.AssistGazzetta = xlRange.Cells[i, 11].Value2;
 
-                    pr.VotoCorriere = xlRange.Cells[i, 12].Value2;
+                    test = xlRange.Cells[i, 12].Value2+"";
+                    if (test.Equals("s,v,"))
+                    {
+                        pr.VotoCorriere = 0;
+                    }
+                    else
+                    {
+                        pr.VotoCorriere = Math.Round((double)xlRange.Cells[i, 12].Value2,1);
+                    }
                     pr.GolFattiCorriere = xlRange.Cells[i, 13].Value2;
                     pr.GolSubitiCorriere = xlRange.Cells[i, 14].Value2;
                     pr.AutoRetiCorriere = xlRange.Cells[i, 15].Value2;

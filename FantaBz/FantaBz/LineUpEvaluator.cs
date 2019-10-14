@@ -15,7 +15,7 @@ namespace FantaBz
         public List<PlayerEvaluationEntry> evaluateLinuep(String tid, int mday, string comp) {
 
             List<PlayerEvaluationEntry> evaluatedLinup = new List<PlayerEvaluationEntry>();
-            string lineUpFile = "F2019_" + mday + "_" + comp + "_"+tid + ".xml";
+            string lineUpFile = "C:\\fantabz\\F2019_" + mday + "_" + comp + "_"+tid + ".xml";
 
             InitialLinup = LineUpParser.parseLineUPXML(lineUpFile);
             PlayerEvaluationEntry[] starting11 = new PlayerEvaluationEntry[InitialLinup.Starting11.Length];
@@ -62,7 +62,9 @@ namespace FantaBz
                         PlayerEvaluationEntry entry = new PlayerEvaluationEntry();
                         entry.Pid = "ris";
                         entry.Vote = 0;
-                        Player p = PlayerList.getPlayer(starting11[i].Pid);
+                        string id = starting11[i].Pid;
+                        Player p = PlayerList.getPlayer(id);
+                        entry.Pos = p.Position;
                         if (p.Position.Equals("P"))
                         {
                             entry.BonusMalus = 3;
@@ -81,6 +83,8 @@ namespace FantaBz
                         starting11[i] = substitutes[sub];
                         substitutes[sub] = null;
                         PlayerEvaluationEntry entry = new PlayerEvaluationEntry();
+                        Player p = PlayerList.getPlayer(starting11[i].Pid);
+                        entry.Pos = p.Position;
                         entry.Pid = "none";
                         entry.Vote = 0;
                         entry.BonusMalus = 0;
@@ -125,7 +129,7 @@ namespace FantaBz
 
             for (int i = 0; i < substitutes.Length; i++)
             {
-                if (substitutes[i].Vote != 0)
+                if (substitutes[i] != null &&substitutes[i].Vote != 0)
                 {
                     Player toSub = PlayerList.getPlayer(pid);
                     Player possibleSub = PlayerList.getPlayer(substitutes[i].Pid);
@@ -192,7 +196,7 @@ namespace FantaBz
             Player p = PlayerList.getPlayer(pr.Id);
 
             if (pr.GolFattiGazzetta > 0) {
-                if (p.Position.Equals("A"))
+                if (p.Position.Equals("S"))
                 {
                     bm += (pr.GolFattiGazzetta - pr.RigoreTrasformato) * 3;
                 }

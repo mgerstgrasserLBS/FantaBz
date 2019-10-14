@@ -9,18 +9,19 @@ namespace FantaBz
     class LineUpParser
     {
 
-        static void Main(string[] args)
+     /*   static void Main(string[] args)
         {
 
             LineUp l = LineUpParser.parseLineUPXML("");
             Console.Out.WriteLine(l.toString());
         }
-
+       */
         public static LineUp parseLineUPXML(string file)
         {
 
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\fantabz\\F2019_6_C_T01.xml");
+            doc.Load(file);
+            //doc.Load("C:\\fantabz\\F2019_6_C_T01.xml");
 
             LineUp lineup = new LineUp();
 
