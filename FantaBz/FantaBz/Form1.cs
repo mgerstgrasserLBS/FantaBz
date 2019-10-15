@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace FantaBz
 {
@@ -24,10 +25,28 @@ namespace FantaBz
             InitializeComponent();
         }
 
+        private void connectToDB()
+        {
+            string connStr = "Server=127.0.0.1;Port=5555;Database=fantabz;Uid=root;Pwd=Steelers0;";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            conn.Open();
+
+            string sql = "SELECT te_name FROM t_fantateams";
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            using (MySqlDataReader rdr = cmd.ExecuteReader())
+            {
+                while (rdr.Read())
+                {
+                    Console.Out.WriteLine(rdr.GetString(0));
+                }
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Console.Out.WriteLine("Giornata: " + comboBox1.Text);
             Console.Out.WriteLine("due date bonus: " + dateTimePicker1.Value);
+            connectToDB();
         }
     }
 }
