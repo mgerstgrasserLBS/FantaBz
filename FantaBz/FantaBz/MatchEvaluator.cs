@@ -12,7 +12,7 @@ namespace FantaBz
         private DateTime dueDateForBonus;
         private LineUp initialLineUpHome;
         private LineUp initialLineUpAway;
-        private XmlDocument xmlDoc = new XmlDocument();
+        private XmlDocument xmlDoc;
 
         /*static void Main(string[] args) {
 
@@ -42,11 +42,12 @@ namespace FantaBz
         }*/
 
 
-        public MatchEvaluator(DateTime d) {
+        public MatchEvaluator(DateTime d, XmlDocument doc) {
+            xmlDoc = doc;
             dueDateForBonus = d;
         }
 
-        public XmlDocument evaluateMatch(Match match) {
+        public XmlElement evaluateMatch(Match match) {
 
             LineUpEvaluator le = new LineUpEvaluator();
             List<PlayerEvaluationEntry> evaluatedLineUpHome = le.evaluateLinuep(match.Teamid_home, match.Day, match.CompetitionID);
@@ -81,45 +82,45 @@ namespace FantaBz
 
             int goalHome = calculateGoals(totalHome);
             int goalAway = calculateGoals(totalAway);
-            if (totalHome < totalAway)
+
+            if (totalHome < 60 && totalAway >= 60 && totalAway - totalHome >= 3)
             {
-                if (totalHome < 60 && totalAway >= 60 && totalAway - totalHome >= 3)
+                goalAway += 1;
+            }
+            else if (totalAway < 60 && totalHome >= 60 && totalHome-totalAway >= 3) {
+                goalHome += 1;
+            }
+            else if (goalHome != goalAway && totalHome < totalAway && totalAway - totalHome < 3)
+            {
+                if (totalAway < 72)
                 {
-                    goalAway += 1;
+                    goalAway -= 1;
                 }
-                else if (totalAway - totalHome < 3 && totalAway < 72)
-                {
-                    goalHome -= 1;
-                }
-                else if (totalAway - totalHome < 3 && totalAway >= 72)
+                else
                 {
                     goalHome += 1;
                 }
-            }
-            else {
-                if (totalAway < 60 && totalHome >= 60 && totalHome - totalAway >= 3)
-                {
-                    goalAway += 1;
-                }
-                else if (totalHome - totalAway < 3 && totalAway < 72)
+            } else if (goalHome != goalAway && totalAway<totalHome && totalHome - totalAway <3) {
+                if (totalHome < 72)
                 {
                     goalHome -= 1;
                 }
-                else if (totalHome - totalAway < 3 && totalAway >= 72)
-                {
-                    goalHome += 1;
+                else {
+                    goalAway += 1;
                 }
             }
-            xmlDoc = new XmlDocument();
+          
             XmlElement matchNode = xmlDoc.CreateElement("match");
             matchNode.SetAttribute("id",match.MatchID);
 
             XmlElement homeTeamNode = xmlDoc.CreateElement("team");
             homeTeamNode.SetAttribute("id", match.Teamid_home);
+            homeTeamNode.SetAttribute("name", match.Teamid_home);
             matchNode.AppendChild(homeTeamNode);
 
             XmlElement awayTeamNode = xmlDoc.CreateElement("team");
             awayTeamNode.SetAttribute("id", match.Teamid_away);
+            awayTeamNode.SetAttribute("name", match.Teamid_away);
             matchNode.AppendChild(awayTeamNode);
 
             generateLineUPXML(evaluatedLineUpHome,homeTeamNode);
@@ -183,7 +184,7 @@ namespace FantaBz
             modPortieriAwayNode.InnerText = modPortiereAway + "";
             awayPointsNode.AppendChild(modPortieriAwayNode);
 
-            XmlElement modDifesaAwayNode = xmlDoc.CreateElement("difense");
+            XmlElement modDifesaAwayNode = xmlDoc.CreateElement("defender");
             modDifesaAwayNode.InnerText = modDifesaAway + "";
             awayPointsNode.AppendChild(modDifesaAwayNode);
 
@@ -205,9 +206,7 @@ namespace FantaBz
             awaygoalsNode.InnerText = goalAway + "";
             awayTeamNode.AppendChild(awaygoalsNode);
 
-            xmlDoc.AppendChild(matchNode);
-
-            return xmlDoc;
+            return matchNode;
         }
 
         private void generateLineUPXML(List<PlayerEvaluationEntry> evaluatedLineUp, XmlElement teamNode)
@@ -234,7 +233,7 @@ namespace FantaBz
             }
             teamNode.AppendChild(substitutesNode);
 
-            XmlElement excludedNode = xmlDoc.CreateElement("substitutes");
+            XmlElement excludedNode = xmlDoc.CreateElement("excluded");
             for (int i = 19+sub; i < evaluatedLineUp.Count; i++)
             {
                 excludedNode.AppendChild(generatePlayerXML(evaluatedLineUp.ElementAt(i)));
@@ -306,11 +305,11 @@ namespace FantaBz
             {
                 return 2;
             }
-            else if (sum >= 77 && sum < 82)
+            else if (sum >= 77 && sum < 81)
             {
                 return 3;
             }
-            else if (sum >= 82 && sum < 85)
+            else if (sum >= 81 && sum < 85)
             {
                 return 4;
             }
@@ -410,6 +409,10 @@ namespace FantaBz
                     sumHome += evaluatedLineUpHome.ElementAt(i).Vote;
                     nrPlayerHome++;
                 }
+                else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
+                {
+                    nrPlayerHome++;
+                }
             }
 
             int nrPlayerAway = 0;
@@ -421,6 +424,10 @@ namespace FantaBz
                 if (!en.Pid.Equals("ris") && !en.Pid.Equals("none") && p.Position.Equals("M"))
                 {
                     sumAway += evaluatedLineUpAway.ElementAt(i).Vote;
+                    nrPlayerAway++;
+                }
+                else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
+                {
                     nrPlayerAway++;
                 }
             }
@@ -507,6 +514,8 @@ namespace FantaBz
                 if (!en.Pid.Equals("ris") && !en.Pid.Equals("none") && p.Position.Equals("D"))
                 {
                     sum += en.Vote;
+                    nrPlayer++;
+                } else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("D")) {
                     nrPlayer++;
                 }
             }

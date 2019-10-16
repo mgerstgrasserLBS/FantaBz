@@ -84,7 +84,7 @@ namespace FantaBz
                         substitutes[sub] = null;
                         PlayerEvaluationEntry entry = new PlayerEvaluationEntry();
                         Player p = PlayerList.getPlayer(starting11[i].Pid);
-                        entry.Pos = p.Position;
+                        entry.Pos = starting11[lastRiservaDUffico].Pos;
                         entry.Pid = "none";
                         entry.Vote = 0;
                         entry.BonusMalus = 0;
@@ -118,7 +118,7 @@ namespace FantaBz
             {
                 if (substitutes[i] != null)
                 {
-                    finalLinup.Add(starting11[i]);
+                    finalLinup.Add(substitutes[i]);
                 }
             }
             finalLinup.AddRange(substitutedPlayers);

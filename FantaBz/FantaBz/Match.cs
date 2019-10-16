@@ -27,5 +27,10 @@ namespace FantaBz
         public string Teamid_home { get => teamid_home; set => teamid_home = value; }
         public int GoalsHomeTeam { get => goalsHomeTeam; set => goalsHomeTeam = value; }
         public int GoalsAwayTeam { get => goalsAwayTeam; set => goalsAwayTeam = value; }
+
+        public String toString() {
+            return year + " | " + day + " |" + matchID + " | " + competitionID + " | " +
+                    fantaday + " | " + teamid_home + " |" + teamid_away + " | ";
+        }
     }
 }
