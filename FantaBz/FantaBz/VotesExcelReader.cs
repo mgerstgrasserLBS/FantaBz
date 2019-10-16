@@ -20,7 +20,7 @@ namespace FantaBz
         {
 
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open("C:\\fantabz\\voti.xlsx");
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open("C:\\fantabz\\voti7.xlsx");
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
@@ -67,6 +67,7 @@ namespace FantaBz
                     pr.Ammonizione = xlRange.Cells[i, 24].Value2;
                     pr.Esplusione = xlRange.Cells[i, 25].Value2;
                     pr.GolVittoria = xlRange.Cells[i, 26].Value2;
+                    pr.GolPareggio = xlRange.Cells[i, 27].Value2;
 
                     pr.RigoreSbagliato = xlRange.Cells[i, 28].Value2;
                     pr.RigoreParato = xlRange.Cells[i, 29].Value2; ;

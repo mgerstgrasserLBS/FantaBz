@@ -206,6 +206,7 @@ namespace FantaBz
             }
 
             bm += pr.GolVittoria * 0.25;
+            bm += pr.GolPareggio * 0.25;
             bm += pr.AssistGazzetta * 1;
             bm += pr.RigoreParato * 2;
             bm += pr.RigoreTrasformato * 2;

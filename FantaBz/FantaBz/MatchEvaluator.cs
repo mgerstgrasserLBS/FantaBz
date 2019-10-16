@@ -143,7 +143,7 @@ namespace FantaBz
             modPortieriNode.InnerText = modPortiereHome + "";
             homePointsNode.AppendChild(modPortieriNode);
 
-            XmlElement modDifesaNode = xmlDoc.CreateElement("difense");
+            XmlElement modDifesaNode = xmlDoc.CreateElement("defender");
             modDifesaNode.InnerText = modDifesaHome + "";
             homePointsNode.AppendChild(modDifesaNode);
 

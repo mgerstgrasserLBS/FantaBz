@@ -25,6 +25,7 @@ namespace FantaBz
         private double ammonizione;
         private double esplusione;
         private double golVittoria;
+        private double golPareggio;
 
         private double rigoreSbagliato;
         private double rigoreParato;
@@ -47,14 +48,14 @@ namespace FantaBz
         public double RigoreSbagliato { get => rigoreSbagliato; set => rigoreSbagliato = value; }
         public double RigoreParato { get => rigoreParato; set => rigoreParato = value; }
         public double RigoreTrasformato { get => rigoreTrasformato; set => rigoreTrasformato = value; }
-
+        public double GolPareggio { get => golPareggio; set => golPareggio = value; }
 
         public String toString()
         {
 
             return id + "\t" + votoGazzetta + "\t" + golFattiGazzetta + "\t" + golSubitiGazzetta + "\t" + autoRetiGazzetta + "\t" + assistGazzetta + "\t" +
                 votoCorriere + "\t" + golFattiCorriere + "\t" + golSubitiCorriere + "\t" + autoRetiCorriere + "\t" + assistCorriere + "\t" + ammonizione + "\t" +
-                esplusione + "\t" + golVittoria + "\t" + rigoreSbagliato + "\t" + rigoreParato + "\t" + rigoreTrasformato;
+                esplusione + "\t" + golVittoria + "\t" +golPareggio + "\t" + rigoreSbagliato + "\t" + rigoreParato + "\t" + rigoreTrasformato;
         }
     }
     
