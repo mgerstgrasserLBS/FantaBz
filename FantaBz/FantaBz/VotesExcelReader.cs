@@ -12,7 +12,9 @@ namespace FantaBz
     class VotesExcelReader
     {
 
-        public VotesExcelReader() {
+        private int day = 0;
+        public VotesExcelReader(int d) {
+            day = d;
             parseExcelFile();
         }
 
@@ -20,7 +22,8 @@ namespace FantaBz
         {
 
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open("C:\\fantabz\\voti7.xlsx");
+            string file = "C:\\fantabz\\voti" + day + ".xls";
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(file);
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
@@ -79,10 +82,6 @@ namespace FantaBz
                 //Console.Out.WriteLine(pr.toString());
 
             }
-
-
-
-
 
             //cleanup
             GC.Collect();

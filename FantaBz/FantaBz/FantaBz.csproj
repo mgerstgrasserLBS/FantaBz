@@ -95,6 +95,7 @@
     <Compile Include="PlayerRating.cs" />
     <Compile Include="PlayerRatingsList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableManager.cs" />
     <Compile Include="VotesExcelReader.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

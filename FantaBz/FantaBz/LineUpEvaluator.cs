@@ -102,6 +102,9 @@ namespace FantaBz
                     else {
                         PlayerEvaluationEntry entry = new PlayerEvaluationEntry();
                         entry.Pid = "none";
+                        string id = starting11[i].Pid;
+                        Player p = PlayerList.getPlayer(id);
+                        entry.Pos = p.Position;
                         entry.Vote = 0;
                         entry.BonusMalus = 0;
                         entry.ScoredGoal = false;
@@ -219,5 +222,16 @@ namespace FantaBz
             return bm;
         }
 
+
+        /*public static void Main(string[] args) {
+            LineUpEvaluator ev = new LineUpEvaluator();
+            ParserForPlayerXML parser = new ParserForPlayerXML();
+            VotesExcelReader voti = new VotesExcelReader(8);
+            List<PlayerEvaluationEntry> line = ev.evaluateLinuep("T08", 8, "C");
+            foreach (PlayerEvaluationEntry pe in line) {
+                Console.Out.WriteLine(pe.Pid + " " + pe.Pos);
+            }
+
+        }*/
     }
 }

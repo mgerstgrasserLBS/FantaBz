@@ -21,7 +21,6 @@ namespace FantaBz
         public static void Main(string[] args) {
 
             ParserForPlayerXML parser = new ParserForPlayerXML();
-            VotesExcelReader voti = new VotesExcelReader();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
@@ -55,6 +54,7 @@ namespace FantaBz
                 m.Teamid_away = rdr.GetString(7);
                 matchList.Add(m);
             }
+            rdr.Close();
             conn.Close();
         }
 
@@ -106,8 +106,10 @@ namespace FantaBz
         {
             Console.Out.WriteLine("Giornata: " + comboBox1.Text);
             Console.Out.WriteLine("due date bonus: " + dateTimePicker1.Value);
+            VotesExcelReader voti = new VotesExcelReader(Int32.Parse(comboBox1.Text));
             fillMatchList();
             createMatchDayXML();
+            //TableManager tm = new TableManager(matchList, comboBox1.Text);
             Application.Exit();
         }
     }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Xml;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace FantaBz
 {
@@ -17,9 +18,9 @@ namespace FantaBz
         /*static void Main(string[] args) {
 
             ParserForPlayerXML parser = new ParserForPlayerXML();
-            VotesExcelReader voti = new VotesExcelReader();
+            VotesExcelReader voti = new VotesExcelReader(8);
 
-            Match m1 = new Match();
+            /*Match m1 = new Match();
             m1.MatchID = "C011";
             m1.Teamid_home = "T01";
             m1.Teamid_away= "T03";
@@ -32,13 +33,15 @@ namespace FantaBz
             m2.Teamid_home = "T05";
             m2.Teamid_away = "T08";
             m2.CompetitionID = "C";
-            m2.Day = 6;
-            m2.Fantaday = 4;
+            m2.Day = 8;
+            m2.Fantaday = 6;
 
-            DateTime dueDate = new DateTime(2019,9,26,23,59,59);
-            MatchEvaluator me = new MatchEvaluator(dueDate);
-            XmlDocument doc = me.evaluateMatch(m1);
-            doc.Save(Console.Out);
+            DateTime dueDate = new DateTime(2019,10,17,23,59,59);
+            XmlDocument xmlDoc = new XmlDocument();
+            MatchEvaluator me = new MatchEvaluator(dueDate, xmlDoc);
+            XmlElement ele = me.evaluateMatch(m2);
+            xmlDoc.AppendChild(ele);
+            xmlDoc.Save(Console.Out);
         }*/
 
 
@@ -109,7 +112,12 @@ namespace FantaBz
                     goalAway += 1;
                 }
             }
-          
+
+            match.GoalsAwayTeam = goalAway;
+            match.GoalsHomeTeam = goalHome;
+
+            writeTotalScoreToDB(match, totalHome+"", totalAway+"");
+
             XmlElement matchNode = xmlDoc.CreateElement("match");
             matchNode.SetAttribute("id",match.MatchID);
 
@@ -207,6 +215,25 @@ namespace FantaBz
             awayTeamNode.AppendChild(awaygoalsNode);
 
             return matchNode;
+        }
+
+        private void writeTotalScoreToDB(Match m, string tsHome, string tsAway) {
+
+            if (m.CompetitionID.Equals("C"))
+            {
+
+                string connStr = "Server=127.0.0.1;Port=5555;Database=fantabz;Uid=root;Pwd=Steelers0;";
+                MySqlConnection conn = new MySqlConnection(connStr);
+                conn.Open();
+                string sql = "Insert into t_totalscore values ('" + m.Teamid_home + "'," + m.Day + "," + tsHome.Replace(',', '.') +
+                                ",'H'),('" + m.Teamid_away + "'," + m.Day + "," + tsAway.Replace(',', '.') + ",'A')";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+
+
+                conn.Close();
+            }
+
         }
 
         private void generateLineUPXML(List<PlayerEvaluationEntry> evaluatedLineUp, XmlElement teamNode)
@@ -409,10 +436,10 @@ namespace FantaBz
                     sumHome += evaluatedLineUpHome.ElementAt(i).Vote;
                     nrPlayerHome++;
                 }
-                else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
+                /*else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
                 {
                     nrPlayerHome++;
-                }
+                }*/
             }
 
             int nrPlayerAway = 0;
@@ -426,29 +453,21 @@ namespace FantaBz
                     sumAway += evaluatedLineUpAway.ElementAt(i).Vote;
                     nrPlayerAway++;
                 }
-                else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
+                /*else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("M"))
                 {
                     nrPlayerAway++;
-                }
+                }*/
             }
 
-            double diff = nrPlayerHome - nrPlayerAway;
-            if (diff == -2)
-            {
-                sumHome += 10;
+            if (nrPlayerHome > nrPlayerAway) {
+                int correction = nrPlayerHome - nrPlayerAway;
+                sumAway += correction*5;
+
+            } else if (nrPlayerHome < nrPlayerAway) {
+                int correction = nrPlayerAway - nrPlayerHome;
+                sumHome += correction * 5;
             }
-            else if (diff == -1)
-            {
-                sumHome += 5;
-            }
-            else if (diff == 1)
-            {
-                sumAway += 5;
-            }
-            else if (diff == 2)
-            {
-                sumAway += 10;
-            }
+
             double[] mod = new double[2];
             if (sumHome < sumAway)
             {
@@ -461,7 +480,6 @@ namespace FantaBz
                 double erg = getModCentrocampo(sumHome - sumAway);
                 mod[0] = erg;
                 mod[1] = erg * -1;
-                
             }
 
             return mod;
@@ -515,18 +533,11 @@ namespace FantaBz
                 {
                     sum += en.Vote;
                     nrPlayer++;
-                } else if ((en.Pid.Equals("ris") || en.Pid.Equals("none")) && en.Pos.Equals("D")) {
-                    nrPlayer++;
                 }
             }
-            if (nrPlayer == 3)
-            {
-                sum += -1;
-            }
-            else if (nrPlayer == 5)
-            {
-                sum += +1;
-            }
+            int correction = nrPlayer - 4;
+            sum += correction;
+
             return getModDifesa(sum / nrPlayer);
         }
 
